@@ -3,6 +3,7 @@ using namespace std;
 
 int main()
 {
+    // main point is '&' called the address of memory. used to find the address of variable in the memory.
     int a = 10;
     cout << "Address of a: " << &a << endl; 
     // The memory address always a hexa decimal number (16)
