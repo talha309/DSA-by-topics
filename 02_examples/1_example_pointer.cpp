@@ -5,9 +5,9 @@ int main(){
     int* p = &a;
     int** q = &p;
     
-    // cout << *p << endl;
-    // cout << **q <<endl;
-    cout << p << endl;
-    // cout << *q << endl;
+    cout << *p << endl;
+    cout << **q <<endl;
+    cout << p << endl; 
+    cout << *q << endl;
     return 0;
 }
